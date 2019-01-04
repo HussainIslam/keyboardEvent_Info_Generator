@@ -12,7 +12,7 @@ window.addEventListener("keydown", keyInfo);
 function keyInfo(event){
     console.log(event);
     event.preventDefault();
-    key.innerText = event.key;
+    key.innerText = "\"" +event.key +"\"";
     charcode.innerText = event.charCode;
     code.innerText = event.code;
     altkey.innerText = event.altKey;
