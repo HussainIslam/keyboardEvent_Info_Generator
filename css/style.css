@@ -1,3 +1,18 @@
+h1{
+    font-size: 1.3em;
+    color: blueviolet;
+}
+
+p{
+    font-size: .9em;
+    color: gray;
+}
+
 span {
     color: red;
+    font-size: .9em;
+}
+
+#keyboardInfo{
+    font-size: .9em;
 }
